@@ -1,0 +1,8 @@
+<script>
+	function download() {
+		let pdf = new jsPDF();
+	  
+		pdf.html(document.getElementById('html'));
+		pdf.save('Eduardo Messias.pdf');
+  	}
+</script>

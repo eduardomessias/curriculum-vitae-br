@@ -1,0 +1,262 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Eduardo Messias
+    tagline: Software engineer / Game developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: eduardo.messias@outlook.com
+    phone: +353 8 3401 2173
+    website: eduardomessias.github.io #do not add http://
+    linkedin: eduardo-messias
+    github: eduardomessias
+    gitlab:
+    bitbucket:
+    twitter: '@messias_twr'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Português
+        level: Native
+
+      - idiom: Inglês
+        level: Professional
+
+      - idiom: Espanhol
+        level: Professional
+
+    interests:
+      - item: Música
+        link:
+
+      - item: Cinema
+        link:
+
+      - item: Programação
+        link:
+
+career-profile:
+    title: Resumo
+    summary: |
+      Atualmente estou cursando Mestrado em Computação para Blockchain e contabilidade descentralizada. Graduado em Desenvolvimento de Jogos Digitais e pós-graduado com MBA em Inteligência de Negócios: Ciência de Dados, Inteligência Artificial e Big Data.
+      
+      Eu tenho quatorze anos de experiência trabalhando com planejamento, arquitetura e desenvolvimento de aplicações de negócios. Na maior parte desse tempo, tenho trabalhado com a plataforma Microsoft Dynamics, mais especificamente com o ERP, mas também com o CRM. Durante os últimos dois anos com grande exposição à otimização de performance, integrações, paralelismo, rastreamento e correção de bug e execução em lote.      
+      
+      Além do meu trabalho, sou entusiasta do desenvolvimento de aplicativos móveis híbridos (multiplataforma), e gosto muito de estudar tecnologias open-source.      
+
+education:
+    - degree: MBA
+      university: PUC Rio Grande do Sul
+      time: 2020 - 2021
+      details: |
+        - MBA em Inteligência de Negócios: AI, Data Science and Big Data.
+
+    - degree: Desenvolvimento de Jogos Digitais
+      university: UMESP - Universidade Metodista de São Paulo 
+      time: 2016 - 2018
+      details: |
+        - Capacidade criativa para conceber soluções inovadoras, utilizando o domínio das técnicas e processos de criação;
+        - Capacidade de domínio da própria linguagem, para expressar soluções e conceitos, em projetos próprios, de acordo com as diversas técnicas de expressão e reprodução visual;
+        - Capacidade de trânsito interdisciplinar, para interagir com especialistas de outras áreas de forma a utilizar diversos conhecimentos e atuar em equipes multidisciplinares para a elaboração, execução de pesquisas e projetos;
+        - Visão sistêmica de projeto, para manifestar a capacidade de dar-lhes o conceito certo a partir da combinação mais adequada de componentes in/materiais, processos de fabricação, aspectos financeiros, psicológicos e sociológicos do produto;
+        - Domínio das diferentes etapas do desenvolvimento do projeto, a saber: definição de objetivos, técnicas de coleta e tratamento de dados, geração e avaliação de alternativas, configuração de soluções e comunicação de resultados;
+        - Conhecimentos relacionados ao setor produtivo em minha especialização, para revelar uma sólida visão setorial, em conformidade com o mercado, materiais, processos produtivos e tecnologias abrangendo as linhas culturais da sociedade, softwares e outras manifestações regionais;
+        - Domínio da gestão da produção, incluindo qualidade, produtividade, disposição física do tecido, estoque, custos e investimentos, além da administração de recursos humanos para produção;
+        - Visão prospectiva e histórica, focada nos aspectos sociais, financeiros e culturais, revelando concisão do impacto econômico, além dos sociais, antropológicos, ambientais, visuais e éticos de minhas atividades;
+
+experiences:
+    - role: Software engineer
+      time: 2019 – present
+      company: Smartbox, Dublin
+      details: |
+        Engenheiro de software responsável pelo desenvolvimento e projeto de integrações e extensões sofisticadas no ERP da empresa,
+        Microsoft Dynamics, lidando com um grande número de solicitações de banco de dados através de serviços em segundo plano e comunicação api provenientes de diferentes sistemas usando uma ampla gama de tecnologias.
+      
+        Testes de processo e documentação para recursos novos e personalizados no sistema.
+
+          - Desenvolvimento Microsoft Dynamics AX 2012
+          - Criação, configuração e teste de entidades de dados para integrações
+          - Documentação de projeto técnico e elaboração de planos de teste
+          - Projeto de processo de refatoração de código
+          - Projeto de processo de revisão de código
+          - Implementação automática do processo de compilação usando Azure DevOps
+
+    - role: Senior programmer analyst
+      time: 2018 – 2019
+      company: KPMG, Malta
+      details: |
+        Analista programador sênior responsável pelo desenvolvimento de soluções na plataforma Microsoft 365,
+        como 365 para Finanças e Operações.
+        Testes de processo e documentação para recursos novos e personalizados no sistema.
+
+          - Desenvolvimento de extensões do Microsoft Dynamics 365 for Finance and Operations
+          - Criação, configuração e teste de entidades de dados para integrações
+          - Documentação de projeto técnico e elaboração de planos de teste
+
+    - role: Multiplatform technical lead
+      time: 2017 - 2018
+      company: Capgemini, São Paulo
+      details: |
+        Líder técnico na área de sistemas multiplataforma, soluções para operações críticas de uma empresa global no ramo de restaurantes.
+        Desenvolvimento do PDV, sistema de entrega, totens de autoatendimento utilizando a tecnologia xml-rpc na integração entre as diversas aplicações e ferramentas.
+        Geração de pacotes de compilação, script de configuração, instalação automática e implantação e distribuição em larga escala dos recursos do sistema.
+
+          - Desenvolvimento utilizando tecnologias JavaScript, .Net, Java e XML-RPC
+          - Embalagem de software usando Inno Setup
+          - Distribuição e instalação de software usando Microsoft SCCM
+          - Desenho de novas funcionalidades. Elaboração de documentação de configuração e teste
+          
+    - role: Senior software engineer
+      time: 2015 - 2017
+      company: RGM, São Paulo
+      details: |
+        Desenvolvimento de integração entre sistemas da plataforma Microsoft Dynamics como ERP e CRM,
+        e outras tecnologias como Java, ASP.NET MVC, Xamarin.
+        Implantação de metodologias ágeis, suporte para desenvolvimento de equipes,
+        arquitetura e planejamento de implantação de software.
+
+          - Desenvolvimento de aplicativos móveis multiplataformas usando Xamarin integrado ao Microsoft Dynamics 365
+          - Desenvolvimento de aplicação web para entrega de livros fiscais utilizando Bootstrap, AngularJS e DotNet
+          
+    - role: Senior software engineer
+      time: 2014 - 2015
+      company: Willdom, São Paulo
+      details: |
+        Suporte ao sistema ERP e Pos da rede da multinacional de cosméticos SEPHORA.
+        Levantamento, desenvolvimento e customização de novas funcionalidades pelo usuário chave.
+        Criação e manutenção de relatórios através da plataforma de relatórios da Microsoft e ferramentas como Reporting Builder,
+        Power BI e Visual Studio. 
+
+          - Desenvolvimento de novas funcionalidades
+          - Criação de relatórios
+          - Suporte e extensão de PDV
+          
+    - role: Senior software engineer
+      time: 2014
+      company: DotSoft, São Paulo
+      details: |
+        Implantação de ERP e CRM (MS Dynamics) em uma grande empresa do ramo de refrigeração,
+        desenvolvimento de integrações para os esquemas de cartões,
+        impressoras fiscais, Pos e impressão de etiquetas através de impressoras térmicas.
+        Suporte às equipes de desenvolvimento. Auxílio na implementação de metodologias ágeis.
+
+          - Desenvolvimento DotNet para Web Services
+          - Serviços e componentes Windows para integração entre Dynamics e impressoras fiscais
+          - Desenvolvimento de PDV usando ASP.NET e Bootstrap
+          - Desenvolvimento de meio de pagamento eletrônico para aplicativos do Banco e Livro Fiscal
+          
+    - role: Software engineer
+      time: 2011 - 2014
+      company: Inove, São Paulo
+      details: |
+        Implantação e suporte de ERP e CRM, levantamento,
+        processos de projeto e desenvolvimento de integração entre sistemas de diversas tecnologias,
+        coordenação e suporte à equipe de desenvolvimento no acompanhamento do orçamento técnico,
+        marcação de horas, documentação técnica, metodologias de desenvolvimento.
+
+          - Desenvolvimento de integrações utilizando framework DotNet
+          - Customizações, manutenção e suporte para novas funcionalidades no Microsoft Dynamics ERP e CRM
+          - Criação de relatórios SSRS para a equipe de Pós-Vendas
+          - Desenvolvimento Web usando ASP.NET e Bootstrap
+          - Implementação de metodologias ágeis
+          - Modelo de documentação
+          - Coordenação de Backlog   
+
+    - role: Software engineer
+      time: 2009 - 2011
+      company: Rhor S.A., São Paulo
+      details: |
+        Desenvolvimento de ferramentas e sistemas web utilizando ASP.NET.
+        Responsável pelo desenvolvimento de sistemas integrados e compostos,
+        e softwares nas seguintes plataformas: .NET, ASP.NET, VB.NET.
+        Implementação e administração de bancos de dados utilizando MySQL, SQL Server 2005/2008 e MongoDB.
+
+          - Desenvolvimento Web usando ASP.NET, Javascript e frameworks de interface de usuário
+          - Administração de banco de dados MySQL e MongoDB
+          - Implementação de metodologias de desenvolvimento ágil
+          - Desenvolvimento Web usando DotNet
+          - Implementação de metodologias de testes
+
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#       link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."#
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: DotNet Standard & DotNet Core
+        level: 90%
+
+      - name: Javascript & Javascript-based frameworks
+        level: 90%
+
+      - name: Angular, React, Vue
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Unreal Engine & Unity 3D, PhaserJS & Construct
+        level: 70%
+        
+      - name: Mobile frameworks (Android, iOS, Xamarin & Apache Cordova)
+        level: 70%
+        
+      - name: SQL Server, MySQL, MongoDB & SQLite
+        level: 60%
+        
+      - name: Microsoft Dynamics 365 ERP & CRM
+        level: 90%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
